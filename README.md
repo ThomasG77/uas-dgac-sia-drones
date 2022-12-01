@@ -22,8 +22,9 @@ Il s'agit du fichier `sia.qgz`. Il consomme les données transformées en établ
 
 <img src="apercu_sia_drones.png"/>
 
-Il faut aussi noter que nous avons rajouté des couches issues du Geoportail/de l'IGN relatives aux restrictions DRONES sous forme raster (WMS) et vecteur (WFS) ainsi qu'un fond de plan OpenStreetMap, vous verrez des écarts. Par exemple, les centres de communes sont marqués avec restriction alors que ce n'est pas le cas côté fichier transformé. Nous laissons aux personnes spécialistes du domaine drônes, tirer les enseignements pour choisir les jeux de données les plus adaptés à leur besoin.
+Il faut aussi noter que nous avons rajouté des couches issues du Geoportail/de l'IGN relatives aux restrictions DRONES sous forme raster (WMS) et vecteur (WFS) ainsi qu'un fond de plan OpenStreetMap, vous verrez des écarts. Par exemple, les centres de communes sont marqués avec restriction alors que ce n'est pas le cas côté fichier transformé. Nous laissons aux personnes spécialistes du domaine drônes, tirer les enseignements pour choisir les jeux de données les plus adaptés à leur besoin. Nous avons volontairement zoomé car la couche WFS de l'IGN bien que non visible est appelée dès l'ouverture et est gourmande en ressource réseau.
 
 Les URL des services WMS, WFS de l'IGN ajoutés sont disponibles sur <https://geoservices.ign.fr/services-web-experts-transports>
+
 
 Vous pouvez potentiellement utiliser les données d'altitude minimum et maximum ainsi que [la documentation officiel du jeu de données UAS du SIA](https://www.sia.aviation-civile.gouv.fr/pub/media/news/file//g/u/guide_utilisation_ds_uas_1.pdf) si vous souhaitez construire les volumes 3D depuis le jeu de données créé.
