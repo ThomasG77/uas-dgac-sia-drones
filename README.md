@@ -21,3 +21,5 @@ PS: nous sommes sous un système Linux qui gère les différences entre les guil
 Il s'agit du fichier `sia.qgz`. Il consomme les données transformées en établissant une relation 1 à n entre le CSV et le GeoJSON.
 
 Il faut aussi noter que nous avons rajouté des couches issues du Geoportail/de l'IGN relatives aux restrictions DRONES sous forme raster (WMS) et vecteur (WFS) ainsi qu'un fond de plan OpenStreetMap, vous verrez des écarts. Par exemple, les centres de communes sont marqués avec restriction alors que ce n'est pas le cas côté fichier transformé. Nous laissons aux personnes spécialistes du domaine drônes, tirer les enseignements pour choisir les jeux de données les plus adaptés à leur besoin.
+
+Vous pouvez potentiellement utiliser les données d'altitude minimum et maximum ainsi que [la documentation officiel du jeu de données UAS du SIA](https://www.sia.aviation-civile.gouv.fr/pub/media/news/file//g/u/guide_utilisation_ds_uas_1.pdf) si vous souhaitez construire les volumes 3D depuis le jeu de données créé.
